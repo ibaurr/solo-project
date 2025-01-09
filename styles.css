@@ -1,0 +1,94 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+// <uniquifier>: Use a unique and descriptive class name
+
+.zain-regular {
+  font-family: "Zain", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+    font-family: zain;
+    font-size: large;
+    margin: 0;
+    text-align: center;
+    background-color: lightblue;
+}
+
+#hero {
+    background-image: url(images/3.webp);
+    background-size: cover;
+    color: #457B9D;
+    height: 250px;
+    padding: 90px 80px 0px 80px;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1, h2 {
+    background-color: #F1FAEE;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+.activities-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+#activities {
+    padding-top: 15px;
+    margin: 0 50px;
+}
+
+.activities-blocks {
+    margin-top: 20px;
+    display: flex;
+    margin: 40px 30px 50px 30px;
+    justify-content: space-around;
+}
+
+.activity-block {
+    width: 200px;
+}
+
+#guide {
+    padding: 15px;
+    background-color: #F1FAEE;
+    margin-top: 20px;
+}
+
+.guide-card {
+    display: flex;
+    justify-content: center;
+    background-color: #A8DADC;
+    padding: 20px 30px;
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    gap: 30px;
+}
+
+.guide-card-text {
+    width: 400px;
+}
+
+img {
+    width: 200px;
+    border-radius: 10px;
+}
